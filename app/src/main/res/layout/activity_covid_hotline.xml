@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A7D1C4"
+    tools:context=".ActivityCovidHotline">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="COVID Hotline"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:background="#19B1A2"
+
+
+        />
+
+
+    <ListView
+        android:id="@+id/list_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#673AB7"
+        android:dividerHeight="2dp"
+        android:listSelector="#673AB7"
+
+        >
+    </ListView>
+
+
+
+
+</LinearLayout>

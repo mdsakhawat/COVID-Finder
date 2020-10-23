@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCovidTestinfo">
+
+    <TextView
+
+        android:id="@+id/header_covid_test"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="#19B1A2"
+        android:text="Select Division"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_alignParentTop="true"
+        android:textSize="24sp"
+        android:gravity="center"
+      android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+
+        android:id="@+id/covid_test_spinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_covid_test"
+        android:padding="3dp" />
+    <ListView
+
+        android:listSelector="#673AB7"
+        android:id="@+id/covid_test_listview"
+       android:layout_below="@+id/covid_test_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#673AB7"
+        android:dividerHeight="2dp"
+        android:background="#A7D1C4"
+
+
+
+
+        />
+
+</RelativeLayout>

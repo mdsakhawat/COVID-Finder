@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+  android:id="@+id/nav_cov_hotline"
+            android:title="COVID Hotline"
+        />
+        <item
+            android:id="@+id/nav_cov_lab_test"
+            android:title="COVID Lab Test Info"
+            />
+        <item
+android:id="@+id/nav_cov_hospital"
+            android:title="COVID Hospital List"
+
+            />
+        <item
+            android:id="@+id/nav_covid_update"
+            android:title="BD COVID Update" />
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:title="Ambulance Info"
+            />
+
+
+        <item
+            android:id="@+id/nav_cov_status"
+            android:title="Change My COVID Status" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:title= "sign Out" />
+        <item
+            android:id="@+id/nav_deleteac"
+            android:title="Delete Account" />
+
+        <item
+
+            android:id="@+id/nav_feedback"
+            android:title="Feedback"
+            />
+
+    </group>
+
+
+
+</menu>

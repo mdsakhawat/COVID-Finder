@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">COVID Finder</string>
+    <string name="title_activity_my_navigation">Map</string>
+    <string name="title_activity_user_location_main">UserLocationMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="help_text">1.Turn on Internet and Location with High ACCURACY mode in your phone \n
+                             2.If you were already signed up then \n
+                                login otherwise you should be signed
+                                up by giving email and other some info .
+                               A verification email will be sent to your email .
+                                Then verify your email .\n
+                             3.Login by giving email and password .\n
+                             4.After Login on map you can able to see COVID patients in your area about 100 meter .\n
+                             5.To get more info tap the Navigation Button .\n
+                             6.If you cure from COVID then please change your COVID status to "NO"\n
+                              otherwise other users still can see you on map as a COVID patient .
+    </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a member yet? Sing up here . </string>
+    <string name="fullName">Full Name</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+    <string-array name="phn_num">
+        <item> 16263 </item>
+        <item> 333 </item>
+        <item> 16633 </item>
+        <item> +8801313037546 </item>
+        <item> 10655</item>
+        <item> +8801944333222 </item>
+        <item> +8801937000011 </item>
+        <item> +8801937110011 </item>
+        <item> +8801927711784 </item>
+        <item> +8801927711785 </item>
+        <item> 244075042 </item>
+        <item> +8801306497095 </item>
+        <item> +8801306497096 </item>
+        <item> +8801744595842 </item>
+        <item> +8801712559673 </item>
+        <item> +8801712177244 </item>
+        <item> +8801713205877 </item>
+        <item> +8801401184551 </item>
+        <item>+8801401184554</item>
+        <item>+8801401184555</item>
+        <item>+8801401184556</item>
+        <item>+8801401184559</item>
+        <item>+8801401184560</item>
+        <item>+8801401184563</item>
+        <item>+8801401184568</item>
+        <item>+8801927711784</item>
+        <item>+8801927711785</item>
+        <item>+8801937000011</item>
+        <item>+8801937110011</item>
+        <item>0961167777</item>
+        <item>109</item>
+    </string-array>
+
+
+    <string-array name="hospital_name">
+
+        <item>Mugda General Hospital</item>
+        <item>Shaheed Suhrawardy Medical College</item>
+        <item>Kuwait Bangladesh Friendship Hospital</item>
+        <item>Bangladesh Railway Hospital</item>
+        <item>Mohanagar General Hospital</item>
+        <item>Mirpur Maternity Hospital</item>
+        <item>Sajida Foundation, Mirpur</item>
+        <item>Dhaka Medical College Hospital</item>
+        <item>Amin Bazar Hospital</item>
+        <item>Kamrangirchar Hospital</item>
+        <item>National Chest Infectious Diseases Hospital</item>
+        <item>Regent Hospital, Mirpur</item>
+        <item>Regent Hospital, Uttara</item>
+        <item>Kurmitola General Hospital</item>
+        <item>Rajarbagh Police Hospital</item>
+
+    </string-array>
+    <string-array name="hospital_num">
+
+        <item>+8802-7276032</item>
+        <item>9130800-19</item>
+        <item>01999956290</item>
+        <item>+8802-55007420</item>
+        <item>02-57390860,02-7390066</item>
+        <item>02-9002012</item>
+        <item>0177771625</item>
+        <item>01819220180</item>
+        <item>01700000000,01712290100</item>
+        <item>01726321189</item>
+        <item>+8802-55067131-40</item>
+        <item>+88029033057</item>
+        <item>+88028931133</item>
+        <item>55062201,01769010200</item>
+        <item>01796-500117</item>
+
+    </string-array>
+
+
+</resources>
