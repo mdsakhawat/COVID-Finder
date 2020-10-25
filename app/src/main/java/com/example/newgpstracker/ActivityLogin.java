@@ -74,6 +74,7 @@ public class ActivityLogin extends AppCompatActivity {
         password= this.<EditText>findViewById(R.id.login_password);
         show_hide_password=findViewById(R.id.show_hide_password);
         manager = new PermissionManager() {
+
         };
         manager.checkAndRequestPermissions(this);
 
@@ -165,7 +166,6 @@ public class ActivityLogin extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                //Toast.makeText(getApplicationContext(),"Login Succesfully",Toast.LENGTH_LONG).show();
 
                                 FirebaseUser user = auth.getCurrentUser();
 
@@ -173,14 +173,15 @@ public class ActivityLogin extends AppCompatActivity {
                                     Intent intent = new Intent(ActivityLogin.this, ActivityLocationMap.class);
                                     startActivity(intent);
                                     finish();
-                                } else {
-                                    Toast.makeText(ActivityLogin.this, "Email is not verified", Toast.LENGTH_SHORT).show();
+                                }
+                                else {
+                                    Toast.makeText(ActivityLogin.this, "Email is not verified !", Toast.LENGTH_SHORT).show();
                                 }
 
                             }
                             else {
-                                Toast.makeText(getApplicationContext(), "Invalid Email or Password", Toast.LENGTH_LONG).show();
 
+                                Toast.makeText(getApplicationContext(), "Invalid Email or Password !", Toast.LENGTH_LONG).show();
                             }
 
                         }

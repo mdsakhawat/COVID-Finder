@@ -42,12 +42,6 @@ public class ActivityMain extends AppCompatActivity {
         imageButton_help=findViewById(R.id.help_button);
         imageButton_start=findViewById(R.id.start_button);
 
-
-
-
-
-
-
     }
 
     public void onBackPressed() {

@@ -43,8 +43,6 @@ public class ActivitySignup extends AppCompatActivity {
     int a;
 
     FirebaseUser user;
-    TextView textView;
-
    FirebaseAuth auth;
    DatabaseReference databaseReference;
    ProgressDialog progressDialog;
@@ -62,40 +60,32 @@ public class ActivitySignup extends AppCompatActivity {
         radioGroup= this.<RadioGroup>findViewById(R.id.radio);
         button= this.<Button>findViewById(R.id.button1);
 
-
-
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Users");
         auth= FirebaseAuth.getInstance();
-
-
         Intent intent=getIntent();
         if(intent!=null)
         {
             name=intent.getStringExtra("name");
             covid_check=intent.getStringExtra("covcheck");
-            //issharing=intent.getStringExtra("issharing");
             date=intent.getStringExtra("date");
             email=intent.getStringExtra("email");
             password=intent.getStringExtra("password");
-           // imageuri=intent.getParcelableExtra("imageuri");
+
         }
-       // textView.setText(code);
+
     }
 
     @Override
     public void onBackPressed()
     {
 
-
         Intent intent=new Intent(ActivitySignup.this, ActivityLogin.class);
         startActivity(intent);
         finish();
-
     }
 
     public void register(View v)
     {
-
 
         name = editText_name.getText().toString();
         email= editText_email.getText().toString();
@@ -131,7 +121,7 @@ public class ActivitySignup extends AppCompatActivity {
 
             progressDialog=new ProgressDialog(this);
 
-            progressDialog.setMessage("Checking Email");
+            progressDialog.setMessage("Checking email ....");
             progressDialog.show();
 
             auth.fetchSignInMethodsForEmail(email)
@@ -146,9 +136,6 @@ public class ActivitySignup extends AppCompatActivity {
                                 progressDialog.dismiss();
                                 if(!check)
                                 {
-
-
-
                                     radioButton = findViewById(a);
                                     covid_check = radioButton.getText().toString();
 
@@ -172,11 +159,7 @@ public class ActivitySignup extends AppCompatActivity {
                                                                     public void onComplete(@NonNull Task<Void> task) {
                                                                         if (task.isSuccessful()) {
                                                                             progressDialog.dismiss();
-
-
-
                                                                             send_email();
-
                                                                             Intent intent = new Intent(ActivitySignup.this, ActivityLogin.class);
                                                                             startActivity(intent);
                                                                             finish();
@@ -192,9 +175,6 @@ public class ActivitySignup extends AppCompatActivity {
 
                                                 }
                                             });
-
-
-
                                 }
                                 else
                                 {
@@ -202,12 +182,9 @@ public class ActivitySignup extends AppCompatActivity {
                                     Toast.makeText(getApplicationContext(),"Email is already registered",Toast.LENGTH_SHORT).show();
                                 }
                             }
-
                         }
                     });
-
-
-        }
+         }
     }
 
     public void send_email()
@@ -219,18 +196,12 @@ public class ActivitySignup extends AppCompatActivity {
 
                         if(task.isSuccessful())
                         {
-                            Toast.makeText(ActivitySignup.this, "Email  sent for verification ", Toast.LENGTH_SHORT).show();
-                           // finish();
+                            Toast.makeText(ActivitySignup.this, "Email was  sent for verification ", Toast.LENGTH_SHORT).show();
                             auth.signOut();
-
-
-
-
-
                         }
                         else
                         {
-                            Toast.makeText(ActivitySignup.this, "Couldn't sent email", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ActivitySignup.this, "Something went wrong ! ", Toast.LENGTH_SHORT).show();
                         }
 
                     }

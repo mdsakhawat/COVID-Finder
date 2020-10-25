@@ -82,10 +82,8 @@ public class ActivityLocationMap extends AppCompatActivity
     FirebaseAuth auth;
     FirebaseUser user;
     DatabaseReference databaseReference;
-    GoogleApiClient client;
     Boolean bool = false, bool1 = false, covid_status = true, camera_zoom = true;
     GoogleMap mMap;
-    // LocationRequest request;
     LatLng latLng;
     String current_pass = "", current_email = "", cur_name = "", cov_check = "NO";
     TextView textView_name, textView_email, textView_cov_check;
@@ -96,11 +94,8 @@ public class ActivityLocationMap extends AppCompatActivity
     private long UPDATE_INTERVAL = 30 * 1000;  /* 30 secs */
     private long FASTEST_INTERVAL = 20 * 1000; /* 20 sec */
     private LocationRequest mLocationRequest;
-    private LocationCallback locationCallback;
-    private FusedLocationProviderClient mFusedLocationClient;
     List<Address> addresses = null;
-    List<Double[]> latlong = new ArrayList<>();
-    String city, locality, knownName, sublocality;
+    String city, locality, knownName;
     MarkerOptions markerOptions = new MarkerOptions();
 
 
@@ -124,11 +119,7 @@ public class ActivityLocationMap extends AppCompatActivity
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
-
         statusCheck();
-
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open,
@@ -172,7 +163,7 @@ public class ActivityLocationMap extends AppCompatActivity
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
 
-                current_pass = dataSnapshot.child(user_id).child("password").getValue(String.class);
+                 current_pass = dataSnapshot.child(user_id).child("password").getValue(String.class);
                 cur_name = dataSnapshot.child(user_id).child("name").getValue(String.class);
                 current_email = dataSnapshot.child(user_id).child("email").getValue(String.class);
                 cov_check = dataSnapshot.child(user_id).child("covid_check").getValue(String.class);
@@ -289,7 +280,6 @@ public class ActivityLocationMap extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-
         return super.onOptionsItemSelected(item);
     }
 
