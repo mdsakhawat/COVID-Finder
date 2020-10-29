@@ -11,17 +11,17 @@ Sign up form for new user to create an account . A new user's information is cre
 ### 3.Login :
 ### 4.Forgotten Password :
 ### 5.Home Page : 
-   -  #### i.Google Map :</br>
-   -  #### ii.Navigation Drawer :</br>
-    * #### Navigation Header :</br>
-    * #### COVID Hotline :</br>
-    * #### COVID Lab Test Info :</br>
-    * #### COVID Hospital List :</br>
-    * #### BD COVID Update :</br>
-    * #### Ambulance Info :</br>
-    * #### Change My COVID Status :</br>
-    * #### Sign Out :</br>
-    * #### Delete Account :</br>
-    * #### Feedback :</br>
+  -  #### i.Google Map :</br>
+  -  #### ii.Navigation Drawer :</br>
+     *  #####     Navigation Header :</br>
+     *  #####     COVID Hotline :</br>
+     *  #####     COVID Lab Test Info :</br>
+     *  #####     COVID Hospital List :</br>
+     *  #####     BD COVID Update :</br>
+     *  #####     Ambulance Info :</br>
+     *  #####     Change My COVID Status :</br>
+     *  #####     Sign Out :</br>
+     *  #####     Delete Account :</br>
+     *  #####     Feedback :</br>
 2.Login Page to allow only authorized users to login . Performs validation for username and password match . If an  user tries to login without verify his/her email , he/she is prevented in doing that . If an user forget his/her password , that user can set a new one . </br>
 
