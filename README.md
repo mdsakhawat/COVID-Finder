@@ -45,3 +45,4 @@ A google map is showed with markers and all markers idicate the COVID positive u
      1. All user's device get continous location update from gps, network etc. then,</br>
      2. Write and update the latitude and longitude data to a specific firebase real time database for the device of user 1, 3 and user 5 then,</br>
      3. All device read that firebase real time database document and show all the location on map with markers and always show the own user's location with marker although the      user is COVID negative .
+
