@@ -39,5 +39,9 @@ A google map is showed with markers and all markers idicate the COVID positive u
         User can able to delete his/her account .
      *  #####     Feedback :
         User can send feedback to admin by taping . Write a messege and tap the send button to send the feedback .
-     
-     
+  
+  ## How it works?
+  <img src="https://user-images.githubusercontent.com/69348740/97615858-0478f180-1a46-11eb-8d67-f197bd98aea8.png" width="800" height="800"/>
+     1. All user's device get continous location update from gps, network etc. then,</br>
+     2. Write and update the latitude and longitude data to a specific firebase real time database for the device of user 1, 3 and user 5 then,</br>
+     3. All device read that firebase real time database document and show all the location on map with markers and always show the own user's location with marker although the      user is COVID negative .
