@@ -1,4 +1,4 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 public class ClassUserInfo {
 

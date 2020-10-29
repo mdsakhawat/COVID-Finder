@@ -1,4 +1,4 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 
 
@@ -6,10 +6,8 @@ package com.example.newgpstracker;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Lifecycle;
 
 
 import android.content.Intent;
@@ -17,11 +15,10 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageButton;
 
+import com.example.covidfinder.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.karan.churi.PermissionManager.PermissionManager;
 
 public class ActivityMain extends AppCompatActivity {
 

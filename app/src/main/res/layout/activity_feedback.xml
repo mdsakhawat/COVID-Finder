@@ -7,7 +7,7 @@
     android:fillViewport="true"
     android:overScrollMode="never"
     android:scrollbars="none"
-    tools:context=".ActivityFeedback">
+    tools:context="com.example.covidfinder.ActivityFeedback">
 
     <RelativeLayout
 

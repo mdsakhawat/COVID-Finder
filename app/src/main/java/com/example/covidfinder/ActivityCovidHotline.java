@@ -1,4 +1,4 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.covidfinder.R;
 
 public class ActivityCovidHotline extends AppCompatActivity {
 

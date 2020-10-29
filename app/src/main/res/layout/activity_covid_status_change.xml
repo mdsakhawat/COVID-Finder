@@ -7,7 +7,7 @@
     android:fillViewport="true"
     android:overScrollMode="never"
     android:scrollbars="none"
-    tools:context=".ActivityCovidStatusChange">
+    tools:context="com.example.covidfinder.ActivityCovidStatusChange">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"

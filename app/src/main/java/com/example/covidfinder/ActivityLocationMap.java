@@ -1,4 +1,4 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 
 import androidx.annotation.NonNull;
@@ -16,22 +16,16 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
-import android.speech.tts.TextToSpeech;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.TextView;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.Vector;
 
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -44,8 +38,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.FusedLocationProviderClient;
+import com.example.covidfinder.R;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
@@ -56,13 +49,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.Circle;
-import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.AuthCredential;
@@ -91,8 +80,8 @@ public class ActivityLocationMap extends AppCompatActivity
     public long count = 0;
     String user_id, cov = "NO";
 
-    private long UPDATE_INTERVAL = 30 * 1000;  /* 30 secs */
-    private long FASTEST_INTERVAL = 20 * 1000; /* 20 sec */
+    private long UPDATE_INTERVAL = 20 * 1000;  /* 20 secs */
+    private long FASTEST_INTERVAL = 10 * 1000; /* 10 sec */
     private LocationRequest mLocationRequest;
     List<Address> addresses = null;
     String city, locality, knownName;
@@ -614,8 +603,6 @@ public class ActivityLocationMap extends AppCompatActivity
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
-
-
 
 }
 

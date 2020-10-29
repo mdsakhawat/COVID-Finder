@@ -1,16 +1,13 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
+
+import com.example.covidfinder.R;
 
 public class ActivityCovidCheck extends AppCompatActivity {
 
@@ -38,7 +35,5 @@ public class ActivityCovidCheck extends AppCompatActivity {
 
         }
 
-
     }
-
 }

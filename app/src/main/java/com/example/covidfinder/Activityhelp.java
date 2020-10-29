@@ -1,11 +1,11 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
+
+import com.example.covidfinder.R;
 
 public class Activityhelp extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.newgpstracker">
+    package="com.example.covidfinder">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -22,23 +22,23 @@
         android:roundIcon="@drawable/lastcorner"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityFeedback"></activity>
-        <activity android:name=".Activityhelp" />
-        <activity android:name=".ActivityAmbulance" />
-        <activity android:name=".ActivityCovidHospital" />
-        <activity android:name=".ActivityCovidTestinfo" />
-        <activity android:name=".ActivityCovidHotline" />
-        <activity android:name=".ActivityForgotePass" />
+        <activity android:name="com.example.covidfinder.ActivityFeedback"></activity>
+        <activity android:name="com.example.covidfinder.Activityhelp" />
+        <activity android:name="com.example.covidfinder.ActivityAmbulance" />
+        <activity android:name="com.example.covidfinder.ActivityCovidHospital" />
+        <activity android:name="com.example.covidfinder.ActivityCovidTestinfo" />
+        <activity android:name="com.example.covidfinder.ActivityCovidHotline" />
+        <activity android:name="com.example.covidfinder.ActivityForgotePass" />
         <activity
-            android:name=".ActivityLocationMap"
+            android:name="com.example.covidfinder.ActivityLocationMap"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:label="@string/title_activity_user_location_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivityCovidUpdate"
+            android:name="com.example.covidfinder.ActivityCovidUpdate"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
-            android:name=".ActivityCovidStatusChange"
+            android:name="com.example.covidfinder.ActivityCovidStatusChange"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -53,7 +53,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".ActivityMain"
+            android:name="com.example.covidfinder.ActivityMain"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,10 +62,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityLogin"
+            android:name="com.example.covidfinder.ActivityLogin"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
-            android:name=".ActivitySignup"
+            android:name="com.example.covidfinder.ActivitySignup"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
     </application>
 

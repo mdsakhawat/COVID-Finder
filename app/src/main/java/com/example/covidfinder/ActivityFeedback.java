@@ -1,14 +1,14 @@
-package com.example.newgpstracker;
+package com.example.covidfinder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.covidfinder.R;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -29,6 +29,7 @@ public class ActivityFeedback extends AppCompatActivity {
 
 
     }
+
 
     @Override
     public void onBackPressed() {

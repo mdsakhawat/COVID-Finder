@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#A7D1C4"
-    tools:context=".ActivityCovidHotline">
+    tools:context="com.example.covidfinder.ActivityCovidHotline">
 
     <TextView
         android:layout_width="match_parent"
