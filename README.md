@@ -14,30 +14,30 @@ Login Page to allow only authorized users to login . Performs validation for ema
 ### 4.Forgotten Password :
 If an user forget his/her password , the user can set a new one from login page .
 ### 5.Home Page : 
-  -  #### i.Location Permission : 
+  *  #### i.Location Permission : 
  If user's location is not on , an alertdialog will be showed for enable location .
-  -  #### ii.Google Map With Marker:
+  *  #### ii.Google Map With Marker:
 A google map is showed with markers and all markers idicate the COVID positive user's location except current user .Te current user's location always is showed on map if the user is COVID positive or not .The current user's location is showed on centre of the marked circle with marker and this marker has a title with current user's  city,locality and known name .The other markers indicate that these are the COVID positive user's current location and these marker have no title .The markers which are in the circle indicate that these locations are around 100 meters from the current user and these locations are the COVID positive user's location .After every 20 seconds the location will be updated .The current user will get a signal  how many COVID positive patients around 100 meters from he/she .
-  -  #### iii.Navigation Drawer :
-     *  #####     Navigation Header :
+  *  #### iii.Navigation Drawer :
+     -  #####     Navigation Header :
         Here  The current user's Name , Email and COVID status are showed . 
-     *  #####     COVID Hotline :
+     -  #####     COVID Hotline :
         All COVID hotline number are showed if user can tap this .If user tap on a hotline number , the number showed on dialpad and he/she can easily call this number .
-     *  #####     COVID Lab Test Info :
-        User can able to see the all COVID Lab test hotline number by selecting his/her own division . If user tap any hotline number , the number showed on dialpad and         he/she can easily call this number .
-     *  #####     COVID Hospital List :
+     -  #####     COVID Lab Test Info :
+        User can able to see the all COVID Lab test hotline number by selecting his/her own division . If user tap any hotline number , the number showed on dialpad and                he/she can easily call this number .
+     -  #####     COVID Hospital List :
         COVID hospitals name and contact number of specific hospital are showed and  if user tap any hotline number , the number showed on dialpad and he/she can easily                 call this number 
-     *  #####     BD COVID Update :
+     -  #####     BD COVID Update :
         By clicking this user can see how many new COVID positive patients , new dead  in 24 hours and all other COVID information .
-     *  #####     Ambulance Info :
+     -  #####     Ambulance Info :
         User can see all abulance contact number by selecting own division and  if user tap any hotline number , the number showed on dialpad and he/she can easily                       call this number 
-     *  #####     Change My COVID Status :
+     -  #####     Change My COVID Status :
         User can able to change his/her COVID status from YES to NO or vice versa .
-     *  #####     Sign Out :
+     -  #####     Sign Out :
         User can sign out by taping this if he/she want .If user is signed out , he/she must do the login when he/she again open the app otherwise the user will be moved to the         Home page .          
-     *  #####     Delete Account :
+     -  #####     Delete Account :
         User can able to delete his/her account .
-     *  #####     Feedback :
+     -  #####     Feedback :
         User can send feedback to admin by taping . Write a messege and tap the send button to send the feedback .
   
   # How the location tracking works?
