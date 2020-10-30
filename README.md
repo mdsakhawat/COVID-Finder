@@ -40,7 +40,7 @@ A google map is showed with markers and all markers idicate the COVID positive u
      *  #####     Feedback :
         User can send feedback to admin by taping . Write a messege and tap the send button to send the feedback .
   
-  ## How it works?
+  ## How the location tracking works?
   <img src="https://user-images.githubusercontent.com/69348740/97615858-0478f180-1a46-11eb-8d67-f197bd98aea8.png" width="800" height="800"/>
      1. All user's device get continous location update from gps, network etc. then,</br>
      2. Write and update the latitude and longitude data to a specific firebase real time database for the device of user 1, 3 and user 5 then,</br>
