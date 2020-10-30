@@ -1,10 +1,10 @@
 # COVID-Finder
 COVID Finder is a simple android App for tracking  COVID19 patients around 100 meters from the current user .This App track the real time location of the users and shows the location on Map. The users who are COVID positive then their latitude and longitude are transfered to firebase real time database .Then all COVID positive users's locations are retrieved from firebase database and showed on map  .The users can see how many COVID positive users around 100 meters from the current user with a Toast .The marker on map which has a title this marker indicates the current user and other markers which has no title indicates the other COVID positive users .
 
-## Screenshots 
+# Screenshots 
 <img src="https://user-images.githubusercontent.com/69348740/97116045-dda87b80-1724-11eb-9d86-dcc276f036a0.png" width="200" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97145533-8c35d600-1790-11eb-983a-e15cfdafc495.png" width="200" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97146987-fea7b580-1792-11eb-887a-1c461b66ae5d.png" width="200" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97146990-ffd8e280-1792-11eb-93be-8d87cf12dc33.png" width="200" height="300"/></br>
 <img src="https://user-images.githubusercontent.com/69348740/97147065-1c751a80-1793-11eb-94b2-87097fa8f0ff.png" width="160" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97147000-049d9680-1793-11eb-98ad-38156d87c91c.png" width="160" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97147007-06675a00-1793-11eb-83f5-73b9fff111d3.png" width="160" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97147010-07988700-1793-11eb-861e-f928ac06c837.png" width="160" height="300"/> <img src="https://user-images.githubusercontent.com/69348740/97455700-534d5b00-1962-11eb-941d-2ca2c7f269f9.png" width="160" height="300"/></br>
-## Features
+# Features
 ### 1.Sign Up : 
 Sign up form for new user to create an account . A new user's record is created in Google Firebase . If an already existing user tries to sign up, he/she will not be able to do the same .
 ### 2.Verify Email : 
@@ -40,9 +40,10 @@ A google map is showed with markers and all markers idicate the COVID positive u
      *  #####     Feedback :
         User can send feedback to admin by taping . Write a messege and tap the send button to send the feedback .
   
-  ## How the location tracking works?
+  # How the location tracking works?
   <img src="https://user-images.githubusercontent.com/69348740/97615858-0478f180-1a46-11eb-8d67-f197bd98aea8.png" width="800" height="800"/>
      1. All user's device get continous location update from gps, network etc. then,</br>
      2. Write and update the latitude and longitude data to a specific firebase real time database for the device of user 1, 3 and user 5 then,</br>
      3. All device read that firebase real time database document and show all the location on map with markers and always show the own user's location with marker although the      user is COVID negative .
+
 
