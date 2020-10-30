@@ -45,9 +45,9 @@ A google map is showed with markers and all markers idicate the COVID positive u
      3. All device read that firebase real time database document and show all the location on map with markers and always show the own user's location with marker although the 
      user is COVID negative .</br>
      
- # Permissions
+# Permissions
 ```java
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -59,18 +59,17 @@ A google map is showed with markers and all markers idicate the COVID positive u
 # Add these in your first build.gradle file
    * In dependencies
 ```java
-classpath 'com.google.gms:google-services:4.2.0'
+   classpath 'com.google.gms:google-services:4.2.0'
 ```
    * In repositories
 ```java
- maven()
+           maven()
                 {
                     url 'https://maven.google.com'
-
                 }
 ```
 ```java
-maven()
+          maven()
                 {
                     url 'https://jitpack.io'
                 }
@@ -78,14 +77,14 @@ maven()
 # Add these in your second build.gradle file
    * Add top this file
    ```java
-   apply plugin: 'com.google.gms.google-services'
+       apply plugin: 'com.google.gms.google-services'
    ```
    * In android
    ```java
-   compileOptions {
+     compileOptions {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
-    }
+        }
    ```
    * In dependencies
    ```java
@@ -102,7 +101,7 @@ maven()
    ```
 # Add this in your Manifest file
 ```java
- <meta-data
+          <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 ```
@@ -110,9 +109,9 @@ maven()
 1. [Register your project on firebase](https://firebase.google.com/docs/android/setup), I am using RealTime Database and Firebase Authentication in this Application.</br>
    *  Setup sign in method</br> 
 <img src="https://user-images.githubusercontent.com/69348740/97700690-739e2680-1ad6-11eb-972a-20fbf9715d76.jpg" width="800" height="600"/></br>
-   *  Setup data read write rules for real time database</br>
+   *  Setup data read-write rules for real time database</br>
 <img src="https://user-images.githubusercontent.com/69348740/97700697-74cf5380-1ad6-11eb-9026-8036d73c407b.jpg" width="800" height="600"/></br>
-2. Add [GOOGLE MAP API KEY](https://developers.google.com/maps/documentation/android-sdk/get-api-key) in your project  or</br>
-3.[Download this app ](https://drive.google.com/file/d/1IKGQS4DPNuBxgHYbT9S6KgbUVXQLzKbO/view?usp=sharing)
+2. Add [GOOGLE MAP API KEY](https://developers.google.com/maps/documentation/android-sdk/get-api-key) in your project for google map and location or,</br>
+3. [Download this app ](https://drive.google.com/file/d/1IKGQS4DPNuBxgHYbT9S6KgbUVXQLzKbO/view?usp=sharing)
 
 
