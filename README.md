@@ -12,12 +12,12 @@ After the new user's information is submitted a verification email will be sent 
 Login Page to allow only authorized users to login . Performs validation for email and password match . If an  user tries to login without verifying his/her email , the user will not be able to do that . 
 ### 4.Forgotten Password :
 If an user forget his/her password , the user can set a new one from login page .
-### 5.Home Page : 
-    *   #### i.Location Permission : 
+### 5.Home Page :
+####    i.Location Permission : 
  If user's location is not enable , an alertdialog will be showed for enable location .
-  *   #### ii.Google Map With Marker:
+####    ii.Google Map With Marker:
 A google map is showed with markers and all markers idicate the COVID positive user's location except current user .Te current user's location always is showed on map if the user is COVID positive or not .The current user's location is showed on centre of the marked circle with marker and this marker has a title with current user's  city,locality and known name .The other markers indicate that these are the COVID positive user's current location and these marker have no title .The markers which are in the circle indicate that these locations are around 100 meters from the current user and these locations are the COVID positive user's location .After every 20 seconds the location will be updated .The current user will get a signal  how many COVID positive patients around 100 meters from he/she .
-  *   #### iii.Navigation Drawer :
+####    iii.Navigation Drawer :
    -  #####     Navigation Header :
         Here  The current user's Name , Email and COVID status are showed . 
    -  #####     COVID Hotline :
