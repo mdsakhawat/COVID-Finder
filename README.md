@@ -46,7 +46,7 @@ A google map is showed with markers and all markers idicate the COVID positive u
   
 #  Installation
    
-##  Permissions
+##  Permission
    * Add in your Manifest file
 ```java
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
