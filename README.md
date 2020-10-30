@@ -46,8 +46,10 @@ A google map is showed with markers and all markers idicate the COVID positive u
      user is COVID negative .</br>
      
 #  Installation
-1.Register your app on firebase, I am using RealTime Database and Firebase Authentication in this Application.</br>
-   *   Setup sign in method</br> 
+1. [Register your project on firebase](https://firebase.google.com/docs/android/setup), I am using RealTime Database and Firebase Authentication in this Application.</br>
+   *  Setup sign in method</br> 
 <img src="https://user-images.githubusercontent.com/69348740/97700690-739e2680-1ad6-11eb-972a-20fbf9715d76.jpg" width="800" height="600"/></br>
-   *   Setup data read write rules for real time database</br>
+   *  Setup data read write rules for real time database</br>
 <img src="https://user-images.githubusercontent.com/69348740/97700697-74cf5380-1ad6-11eb-9026-8036d73c407b.jpg" width="800" height="600"/></br>
+2. Add [GOOGLE MAP API KEY](https://developers.google.com/maps/documentation/android-sdk/get-api-key) in your project  or
+3.[Download this app ](https://drive.google.com/file/d/1IKGQS4DPNuBxgHYbT9S6KgbUVXQLzKbO/view?usp=sharing)
