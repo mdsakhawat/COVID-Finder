@@ -445,6 +445,8 @@ public class ActivityLocationMap extends AppCompatActivity
 
                         if (locationResult.getLastLocation() != null)
                             onLocationChanged(locationResult.getLastLocation());
+
+
                     }
                 },
                 Looper.myLooper());

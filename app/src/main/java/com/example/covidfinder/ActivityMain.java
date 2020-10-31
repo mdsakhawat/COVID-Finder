@@ -26,6 +26,8 @@ public class ActivityMain extends AppCompatActivity {
     FirebaseAuth auth;
     Button imageButton_help,imageButton_start;
 
+    private  static  final  String API_KEY=BuildConfig.ApiKey;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
