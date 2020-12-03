@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+
     xmlns:tools="http://schemas.android.com/tools"
     >
 
     <group android:checkableBehavior="single">
 
-        <item
 
-  android:id="@+id/nav_cov_hotline"
+        <item
+           android:id="@+id/nav_cov_hotline"
+            android:icon="@drawable/call_icon"
             android:title="COVID Hotline"
         />
         <item
             android:id="@+id/nav_cov_lab_test"
+            android:icon="@drawable/lab_test_info"
             android:title="COVID Lab Test Info"
             />
         <item
-android:id="@+id/nav_cov_hospital"
+             android:id="@+id/nav_cov_hospital"
+            android:icon="@drawable/hospital_list"
             android:title="COVID Hospital List"
 
             />
         <item
             android:id="@+id/nav_covid_update"
+            android:icon="@drawable/update_icon1"
             android:title="BD COVID Update" />
 
         <item
             android:id="@+id/nav_ambulance"
+            android:icon="@drawable/ambulance"
             android:title="Ambulance Info"
             />
 
 
         <item
             android:id="@+id/nav_cov_status"
+            android:icon="@drawable/cov_status"
             android:title="Change My COVID Status" />
 
         <item
             android:id="@+id/nav_sign_out"
+            android:icon="@drawable/signout"
             android:title= "sign Out" />
         <item
             android:id="@+id/nav_deleteac"
+            android:icon="@drawable/delete_1"
             android:title="Delete Account" />
 
         <item
 
             android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback_icon"
             android:title="Feedback"
+
             />
 
     </group>
