@@ -114,6 +114,6 @@ A google map is shown with markers and all markers idicate the COVID positive us
    *  Setup data read-write rules for real time database</br>
 <img src="https://user-images.githubusercontent.com/69348740/97700697-74cf5380-1ad6-11eb-9026-8036d73c407b.jpg" width="800" height="500"/></br>
 
-## [Download this app ](https://drive.google.com/file/d/1Iwj8Mlepc85-gl-sgFWh8BEYvml90taF/view?usp=sharing)
+## [Download this app ](https://drive.google.com/file/d/1cJ7o4N-E3ir4huE1l1QxALknbt2KtH5h/view?usp=sharing)
 
 
